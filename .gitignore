@@ -30,6 +30,8 @@
 .gitignore
 
 # Current project dirs
+/.vs/
+/CodeDB/
 /Debug/
 /EmbProTest/Debug/
 /Release/
