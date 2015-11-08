@@ -26,3 +26,13 @@
 *.exe
 *.out
 *.app
+
+# Git
+.gitignore
+
+# Current project dirs
+/Debug/
+/EmbProTest/Debug/
+/Release/
+/EmbProTest/Release/
+/EmbProTest/VisualGDBCache/
