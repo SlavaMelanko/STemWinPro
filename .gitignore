@@ -30,6 +30,8 @@
 .gitignore
 
 # Current project dirs
+*.old
+*.opensdf
 *.sdf
 /.vs/
 /CodeDB/
