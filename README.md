@@ -14,4 +14,6 @@ NOTE: GCC ARM toolchain installation location MUST not contain the spaces.
 
 ## Build
 
-TODO
+Open EmbProTest/stm32.mak file and change toolchain value (8 line):
+
+TOOLCHAIN_ROOT ?= path/to/your/toolchain
