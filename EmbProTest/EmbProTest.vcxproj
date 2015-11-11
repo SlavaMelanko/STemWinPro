@@ -164,7 +164,7 @@
     <ClCompile Include="GUI\Config\GUIConf.c" />
     <ClCompile Include="GUI\Config\GUI_X.c" />
     <ClCompile Include="GUI\Config\LCDConf_stm32f429i_disco_MB1075.c" />
-    <ClCompile Include="MainTask.cpp" />
+    <ClCompile Include="Init.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="stm32f4xx_it.c" />
     <ClCompile Include="system_stm32f4xx.c" />
@@ -409,6 +409,7 @@
     <ClInclude Include="GUI\Inc\WM.h" />
     <ClInclude Include="GUI\Inc\WM_GUI.h" />
     <ClInclude Include="GUI\Inc\WM_Intern.h" />
+    <ClInclude Include="Init.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="stm32f4xx_hal_conf.h" />
     <ClInclude Include="stm32f4xx_it.h" />

@@ -678,6 +678,9 @@
 #ifndef __DEC32_SUBNORMAL_MIN__
 #define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
 #endif
+#ifndef USE_FULL_ASSERT
+#define USE_FULL_ASSERT 1
+#endif
 #ifndef __INT_FAST16_MAX__
 #define __INT_FAST16_MAX__ 2147483647
 #endif

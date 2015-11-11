@@ -439,11 +439,11 @@
     <ClCompile Include="GUI\Config\LCDConf_stm32f429i_disco_MB1075.c">
       <Filter>GUI\Config</Filter>
     </ClCompile>
-    <ClCompile Include="MainTask.cpp">
-      <Filter>Source files</Filter>
-    </ClCompile>
     <ClCompile Include="GUI\Config\GUI_X.c">
       <Filter>GUI\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.c">
+      <Filter>Source files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1172,6 +1172,9 @@
     </ClInclude>
     <ClInclude Include="GUI\Config\FreeRTOSConfig.h">
       <Filter>GUI\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>Header files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
