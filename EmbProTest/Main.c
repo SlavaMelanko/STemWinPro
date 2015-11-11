@@ -104,9 +104,10 @@ void BSP_Pointer_Update(void)
 	}
 	else
 	{
-		TS_State.Layer = 0;
-		TS_State.x = 1;
-		TS_State.y = 1;
+		// Use -1 if touch is not pressed.
+		TS_State.Layer = -1;
+		TS_State.x = -1;
+		TS_State.y = -1;
 
 		GUI_TOUCH_StoreStateEx(&TS_State);
 	}
