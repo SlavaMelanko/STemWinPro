@@ -1,6 +1,7 @@
 #include "Main.h"
 #include "Init.h"
 #include "WM.h"
+#include "TestDlg.h"
 
 //
 // Function declarations.
@@ -28,11 +29,11 @@ int main(void)
 	// Activate the use of memory device feature.
 	WM_SetCreateFlags(WM_CF_MEMDEV);
 
-	GUI_Clear();
-	GUI_SetFont(&GUI_Font20_1);
-	GUI_DispStringAt("Hello world!", (LCD_GetXSize() - 100) / 2, (LCD_GetYSize() - 20) / 2);
+	WM_HWIN hDlg = CreateTestDlg();
+
 	while (1)
 	{
+		GUI_Delay(10);
 	}
 }
 
@@ -85,12 +86,12 @@ void BSP_Pointer_Update(void)
 
 	TS_State.Pressed = ts.TouchDetected;
 
-	xDiff = (prev_state.X > ts.X) ? (prev_state.X - ts.X) : (ts.X - prev_state.X);
-	yDiff = (prev_state.Y > ts.Y) ? (prev_state.Y - ts.Y) : (ts.Y - prev_state.Y);
-
-	if(ts.TouchDetected)
+	if (ts.TouchDetected)
 	{
-		if((prev_state.TouchDetected != ts.TouchDetected ) || (xDiff > 3 ) || (yDiff > 3))
+		xDiff = (prev_state.X > ts.X) ? (prev_state.X - ts.X) : (ts.X - prev_state.X);
+		yDiff = (prev_state.Y > ts.Y) ? (prev_state.Y - ts.Y) : (ts.Y - prev_state.Y);
+
+		if ((prev_state.TouchDetected != ts.TouchDetected) || (xDiff > 3) || (yDiff > 3))
 		{
 			prev_state = ts;
 
@@ -100,6 +101,14 @@ void BSP_Pointer_Update(void)
 
 			GUI_TOUCH_StoreStateEx(&TS_State);
 		}
+	}
+	else
+	{
+		TS_State.Layer = 0;
+		TS_State.x = 1;
+		TS_State.y = 1;
+
+		GUI_TOUCH_StoreStateEx(&TS_State);
 	}
 }
 

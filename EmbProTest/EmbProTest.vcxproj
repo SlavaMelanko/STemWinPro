@@ -37,7 +37,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <NMakeIncludeSearchPath>.;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\FreeRTOS\Source\Include;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\FreeRTOS\Source\Portable\gcc\ARM_CM3;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_HAL_Driver\Inc;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_HAL_Driver\Inc\Legacy;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\CMSIS_HAL\Device\ST\STM32F4xx\Include;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\CMSIS_HAL\Include;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\CMSIS_HAL\RTOS\Template;c:\4.92015q3\arm-none-eabi\include\c++\4.9.3;c:\4.92015q3\arm-none-eabi\include\c++\4.9.3\arm-none-eabi\armv7e-m\fpu;c:\4.92015q3\arm-none-eabi\include\c++\4.9.3\backward;c:\4.92015q3\lib\gcc\arm-none-eabi\4.9.3\include;c:\4.92015q3\lib\gcc\arm-none-eabi\4.9.3\include-fixed;c:\4.92015q3\arm-none-eabi\include;GUI/Config;GUI/Inc;BSP/Components;BSP/STM32F429I-Discovery;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>.;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\FreeRTOS\Source\Include;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\FreeRTOS\Source\Portable\gcc\ARM_CM3;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_HAL_Driver\Inc;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_HAL_Driver\Inc\Legacy;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\CMSIS_HAL\Device\ST\STM32F4xx\Include;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\CMSIS_HAL\Include;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\CMSIS_HAL\RTOS\Template;c:\4.92015q3\arm-none-eabi\include\c++\4.9.3;c:\4.92015q3\arm-none-eabi\include\c++\4.9.3\arm-none-eabi\armv7e-m\fpu;c:\4.92015q3\arm-none-eabi\include\c++\4.9.3\backward;c:\4.92015q3\lib\gcc\arm-none-eabi\4.9.3\include;c:\4.92015q3\lib\gcc\arm-none-eabi\4.9.3\include-fixed;c:\4.92015q3\arm-none-eabi\include;GUI/Config;GUI/Inc;BSP/Components;BSP/STM32F429I-Discovery;Interface;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\stm32_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
@@ -165,6 +165,7 @@
     <ClCompile Include="GUI\Config\GUI_X.c" />
     <ClCompile Include="GUI\Config\LCDConf_stm32f429i_disco_MB1075.c" />
     <ClCompile Include="Init.c" />
+    <ClCompile Include="Interface\TestDlg.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="stm32f4xx_it.c" />
     <ClCompile Include="system_stm32f4xx.c" />
@@ -410,6 +411,7 @@
     <ClInclude Include="GUI\Inc\WM_GUI.h" />
     <ClInclude Include="GUI\Inc\WM_Intern.h" />
     <ClInclude Include="Init.h" />
+    <ClInclude Include="Interface\TestDlg.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="stm32f4xx_hal_conf.h" />
     <ClInclude Include="stm32f4xx_it.h" />
