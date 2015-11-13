@@ -1130,12 +1130,12 @@
 //$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32/STM32F4xxxx/CMSIS_HAL/Device/ST/STM32F4xx/Include
 //$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32/STM32F4xxxx/CMSIS_HAL/Include
 //$(LOCALAPPDATA)\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32/STM32F4xxxx/CMSIS_HAL/RTOS/Template
-//c:\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
-//c:\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu
-//c:\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
-//c:\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/include
-//c:\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/include-fixed
-//c:\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
+//c:\gnutoolsarmembedded\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
+//c:\gnutoolsarmembedded\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu
+//c:\gnutoolsarmembedded\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
+//c:\gnutoolsarmembedded\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/include
+//c:\gnutoolsarmembedded\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/include-fixed
+//c:\gnutoolsarmembedded\4.92015q3\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
 //GUI/Config
 //GUI/Inc
 //BSP/Components
@@ -1145,12 +1145,12 @@
 
 
 // --- Library directories begin --- //
-//c:/4.92015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/
-//c:/4.92015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/
-//c:/4.92015q3/bin/../arm-none-eabi/lib/armv7e-m/fpu/
-//c:/4.92015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/
-//c:/4.92015q3/bin/../lib/gcc/
-//c:/4.92015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/
-//c:/4.92015q3/bin/../arm-none-eabi/lib/
+//c:/gnutoolsarmembedded/4.92015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/
+//c:/gnutoolsarmembedded/4.92015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/
+//c:/gnutoolsarmembedded/4.92015q3/bin/../arm-none-eabi/lib/armv7e-m/fpu/
+//c:/gnutoolsarmembedded/4.92015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/
+//c:/gnutoolsarmembedded/4.92015q3/bin/../lib/gcc/
+//c:/gnutoolsarmembedded/4.92015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/
+//c:/gnutoolsarmembedded/4.92015q3/bin/../arm-none-eabi/lib/
 // --- Library directories begin --- //
 

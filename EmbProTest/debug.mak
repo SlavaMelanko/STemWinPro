@@ -14,7 +14,7 @@ MACOS_FRAMEWORKS :=
 LINUX_PACKAGES := 
 
 CFLAGS := -ggdb -ffunction-sections -O0 -mfpu=fpv4-sp-d16 -mfloat-abi=hard
-CXXFLAGS := -ggdb -ffunction-sections -fno-exceptions -fno-rtti -O0 -fpermissive -mfpu=fpv4-sp-d16 -mfloat-abi=hard -std=c++11 -std=gnu++11
+CXXFLAGS := -ggdb -ffunction-sections -fno-exceptions -fno-rtti -O0 -fpermissive -mfpu=fpv4-sp-d16 -mfloat-abi=hard --std=gnu++11
 ASFLAGS := 
 LDFLAGS := -Wl,-gc-sections -mfpu=fpv4-sp-d16 -mfloat-abi=hard
 COMMONFLAGS := 

@@ -35,7 +35,7 @@
     <Entries>
       <KeyValue>
         <Key>com.sysprogs.bspoptions.stm32.freertos.heap</Key>
-        <Value>heap_4</Value>
+        <Value>heap_5</Value>
       </KeyValue>
       <KeyValue>
         <Key>com.sysprogs.bspoptions.stm32.freertos.portcore</Key>
